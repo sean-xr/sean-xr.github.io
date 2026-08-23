@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rui Xiao</title>
+<meta name="description" content="Rui Xiao is a PhD researcher at the Technical University of Munich working on multimodal learning and vision-language models.">
+<meta name="author" content="Rui Xiao">
+
+<!-- Social preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rui Xiao">
+<meta property="og:description" content="PhD researcher at TU Munich working on multimodal learning and vision-language models.">
+<meta property="og:image" content="https://sean-xr.github.io/assets/images/profile.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+
+<!-- Set the theme before first paint so there is no flash of the wrong colours. -->
+<script>
+  (function () {
+    var saved = localStorage.getItem('theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+
+<body>
+<button id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+  <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M21.5 12h-2.6M5.1 12H2.5M18.7 5.3l-1.8 1.8M7.1 16.9l-1.8 1.8M18.7 18.7l-1.8-1.8M7.1 7.1L5.3 5.3"/></svg>
+  <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.4A8.6 8.6 0 0 1 9.6 3.5a8.6 8.6 0 1 0 10.9 10.9z"/></svg>
+</button>
+
+<main>
+
+  <!-- ══════════════════════════ HEADER ══════════════════════════ -->
+  <header class="profile">
+    <img class="avatar" src="assets/images/profile.jpg" alt="Rui Xiao">
+    <div class="profile-text">
+      <h1>Rui Xiao</h1>
+      <p class="tagline">
+        PhD Researcher, <a href="https://www.eml-munich.de/">Explainable Machine Learning</a><br>
+        Technical University of Munich &middot; Munich Center for Machine Learning
+      </p>
+      <p class="tagline">Advised by <a href="https://www.eml-munich.de/people/zeynep-akata">Prof. Dr. Zeynep Akata</a></p>
+
+      <nav class="links" aria-label="Profile links">
+        <a href="mailto:rui.xiao@tum.de">Email</a>
+        <a href="https://scholar.google.com/citations?user=YVLOoK0AAAAJ&amp;hl=en">Google&nbsp;Scholar</a>
+        <a href="https://github.com/sean-xr">GitHub</a>
+        <a href="https://www.linkedin.com/in/rui-xiao-tum/">LinkedIn</a>
+        <a href="assets/cv.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════ ABOUT ══════════════════════════ -->
+  <section id="about">
+    <p>
+      I am a PhD researcher in the <a href="https://www.eml-munich.de/">Explainable Machine Learning</a> group at the
+      Technical University of Munich, advised by <a href="https://www.eml-munich.de/people/zeynep-akata">Prof. Dr. Zeynep Akata</a>.
+      My research is on <strong>learning across modalities and domains</strong>, with a particular focus on the
+      <strong>fine-grained visual capabilities</strong> of vision-language models &mdash; what they actually perceive,
+      where they fail, and how to make them see more faithfully.
+    </p>
+    <p>
+      Before starting my PhD I received an M.Sc. in Robotics, Cognition and Intelligence from TU Munich,
+      and a B.Eng. in Automotive Engineering from Jilin University, China.
+    </p>
+    <p>
+      Feel free to reach out if you would like to chat about multimodal learning &mdash; or if you are a student
+      at TUM looking for a thesis project in this area.
+    </p>
+  </section>
+
+  <!-- ══════════════════════════ NEWS ══════════════════════════ -->
+  <!-- Add newest items at the top. Keep roughly the last 6-8; older ones can just be deleted. -->
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="date">Mar 2026</span><span>FINER is accepted to <strong>CVPR 2026</strong> as an <strong>Oral</strong>.</span></li>
+      <li><span class="date">Oct 2025</span><span>Preprint on training-free uncertainty guidance for MLLMs is out.</span></li>
+      <li><span class="date">Feb 2025</span><span>FLAIR and COSMOS are both accepted to <strong>CVPR 2025</strong>.</span></li>
+      <li><span class="date">Dec 2024</span><span>FLAIR and COSMOS preprints and code are released.</span></li>
+      <li><span class="date">Oct 2023</span><span>SCOPE is presented at the GRAIL workshop, MICCAI 2023.</span></li>
+    </ul>
+  </section>
+
+  <!-- ══════════════════════════ PUBLICATIONS ══════════════════════════ -->
+  <!--
+    To add a paper, copy one <article class="pub"> block and edit it.
+    Drop the teaser image in assets/thumbs/ (about 600x340 px works well).
+    Use <span class="me">Rui Xiao</span> to bold your own name.
+  -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p class="section-note">
+      <span class="me">Bold</span> denotes my name. See also my
+      <a href="https://scholar.google.com/citations?user=YVLOoK0AAAAJ&amp;hl=en">Google Scholar</a> profile.
+    </p>
+
+    <article class="pub">
+      <img src="assets/thumbs/finer.png" alt="">
+      <div class="pub-body">
+        <h3>FINER: MLLMs Hallucinate under Fine-grained Negative Queries</h3>
+        <p class="authors"><span class="me">Rui Xiao</span>, Sanghwan Kim, Yongqin Xian, Zeynep Akata, Stephan Alaniz</p>
+        <p class="venue">CVPR 2026 <span class="badge">Oral</span></p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2603.17662">arXiv</a>
+          <a href="https://explainableml.github.io/finer-project/">Project page</a>
+          <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_FINER_MLLMs_Hallucinate_under_Fine-grained_Negative_Queries_CVPR_2026_paper.html">CVF</a>
+          <a href="https://huggingface.co/papers/2603.17662">HuggingFace</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <img src="assets/thumbs/uncertainty.png" alt="">
+      <div class="pub-body">
+        <h3>Training-free Uncertainty Guidance for Complex Visual Tasks with MLLMs</h3>
+        <p class="authors">Sanghwan Kim, <span class="me">Rui Xiao</span>, Stephan Alaniz, Yongqin Xian, Zeynep Akata</p>
+        <p class="venue">ECCV 2026</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2510.00705">arXiv</a>
+          <a href="https://openreview.net/forum?id=vN7rILXgcE">OpenReview</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <img src="assets/thumbs/flair.png" alt="">
+      <div class="pub-body">
+        <h3>FLAIR: VLM with Fine-grained Language-informed Image Representations</h3>
+        <p class="authors"><span class="me">Rui Xiao</span>, Sanghwan Kim, Mariana-Iuliana Georgescu, Zeynep Akata, Stephan Alaniz</p>
+        <p class="venue">CVPR 2025</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2412.03561">arXiv</a>
+          <a href="https://explainableml.github.io/flair-website/">Project page</a>
+          <a href="https://github.com/ExplainableML/flair">Code</a>
+          <a href="https://huggingface.co/xiaorui638/flair">Models</a>
+          <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Xiao_FLAIR_VLM_with_Fine-grained_Language-informed_Image_Representations_CVPR_2025_paper.pdf">CVF</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <img src="assets/thumbs/cosmos.png" alt="">
+      <div class="pub-body">
+        <h3>COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training</h3>
+        <p class="authors">Sanghwan Kim, <span class="me">Rui Xiao</span>, Mariana-Iuliana Georgescu, Stephan Alaniz, Zeynep Akata</p>
+        <p class="venue">CVPR 2025</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2412.01814">arXiv</a>
+          <a href="https://github.com/ExplainableML/cosmos">Code</a>
+          <a href="https://huggingface.co/sankim2/cosmos">Models</a>
+          <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_COSMOS_Cross-Modality_Self-Distillation_for_Vision_Language_Pre-training_CVPR_2025_paper.pdf">CVF</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <img src="assets/thumbs/scope.png" alt="">
+      <div class="pub-body">
+        <h3>SCOPE: Structural Continuity Preservation for Retinal Vessel Segmentation</h3>
+        <p class="authors">Yousef Yeganeh, G&ouml;ktu&#287; G&uuml;vercin, <span class="me">Rui Xiao</span>, Amr Abuzer, Ehsan Adeli, Azade Farshad, Nassir Navab</p>
+        <p class="venue">GRAIL Workshop, MICCAI 2023</p>
+        <p class="pub-links">
+          <a href="https://arxiv.org/abs/2304.14572">arXiv</a>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-55088-1_1">Springer</a>
+        </p>
+      </div>
+    </article>
+
+    <!--
+      This one is listed on your Google Scholar but I could not find a public arXiv page for it.
+      Add the link below, or delete this whole <article> block if it is not public yet.
+    -->
+    <article class="pub">
+      <img src="assets/thumbs/red.png" alt="">
+      <div class="pub-body">
+        <h3>What is the Color of RED? Vision&ndash;Language Models Prefer to Read Rather Than See</h3>
+        <p class="authors">N. Teker, <span class="me">Rui Xiao</span>, Zeynep Akata, S. Wu</p>
+        <p class="venue">Preprint</p>
+        <p class="pub-links">
+          <!-- <a href="ADD_ARXIV_LINK_HERE">arXiv</a> -->
+        </p>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ══════════════════════════ TEACHING & SERVICE ══════════════════════════ -->
+  <section id="teaching">
+    <h2>Teaching &amp; Service</h2>
+
+    <h3 class="sub">Reviewing</h3>
+    <ul class="plain-list">
+      <li>Conference reviewer: CVPR, ICCV, ECCV, NeurIPS, ICLR <span class="muted">&mdash; edit to match the venues you actually review for</span></li>
+    </ul>
+
+    <h3 class="sub">Teaching</h3>
+    <ul class="plain-list">
+      <li><span class="date">TUM</span><span>Teaching assistant &mdash; add your course here</span></li>
+      <li><span class="date">TUM</span><span>Supervised student theses and research projects in multimodal learning</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Rui Xiao &middot; Built with plain HTML and CSS &middot; Hosted on GitHub Pages</p>
+  </footer>
+
+</main>
+
+<script>
+  var toggle = document.getElementById('theme-toggle');
+  toggle.addEventListener('click', function () {
+    var root = document.documentElement;
+    var current = root.getAttribute('data-theme');
+    // No explicit choice yet? Flip away from whatever the OS is currently showing.
+    if (!current) {
+      current = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+  });
+</script>
+
+</body>
+</html>
